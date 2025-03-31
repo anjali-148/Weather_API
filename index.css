@@ -1,0 +1,86 @@
+*{
+    
+    margin-top:10px;
+    
+}
+.universal{
+    margin:none;
+    height: 100%;
+    width: 100%;
+   
+}
+.frame{
+    background-color: antiquewhite;
+    border:2px solid black;
+}
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    height:30px;
+    background-color: #e7efe0;
+    width:60%;
+    flex-direction: row;
+    justify-self: center;
+    align-items: top;
+    padding:10px;
+    padding-bottom: 30px;
+    /* margin-left: 250px; */
+    border-radius: 20px;
+    
+}
+#textbox{
+    
+    height:100%;
+    background-color: rgb(136, 186, 230);
+    width:90%;
+    text-align:center;
+    text-justify: inherit;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border:none;
+    margin-right: 5px;
+    border-radius:20px;
+}
+#button{
+    border:none;
+    border-radius:50px;
+    background-color: aquamarine;
+    padding-bottom: 10px;
+    border:none;
+    border-radius: 50px;
+}
+#textbox:active{
+    border:none;
+}
+#button:hover{
+    background-color: aliceblue;
+}
+.icon{
+    display: flex;
+     height:30%;
+    justify-content: center;
+    margin: 50px 0px 20px 0px;
+   
+}
+.temp,.description{
+   text-align: center;
+}
+.details{
+    display:flex;
+   justify-content: space-around;
+   /* margin:0px 300px 10px 250px; */
+
+}
+.humidity,.wind{
+    display: flex;
+  
+    flex-direction: row;
+}
+
+#humidity_icon,#wind_icon{
+
+ width:50px;
+ font-size:50px ;
+}
+
